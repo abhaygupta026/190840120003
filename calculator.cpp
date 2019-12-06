@@ -14,29 +14,29 @@ int main()
         case 1:
         {
             cout<<"Provide the number";
-            cin>>a,b;
-            cout<<"sum is"<<a+b;
+            cin>>a>>b;
+            cout<<"sum is"<<a+b<<endl;
         }break;
 
         case 2:
         {
             cout<<"Provide the number";
-            cin>>a,b;
-            cout<<"Sub is"<<a-b;
+            cin>>a>>b;
+            cout<<"Sub is"<<a-b<<endl;
         }break;
 
         case 3:
         {
             cout<<"Provide the number";
-            cin>>a,b;
-            cout<<"Mul is"<<a*b;
+            cin>>a>>b;
+            cout<<"Mul is"<<a*b<<endl;
         }break;
 
         case 4:
         {
             cout<<"Provide the number";
-            cin>>a,b;
-            cout<<"sum is"<<a/b;
+            cin>>a>>b;
+            cout<<"sum is"<<a/b<<endl;
         }break;
     }
     }while(i!=0);
